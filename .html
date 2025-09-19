@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Color Change</title>
+  <script src="practise.js"></script>
+</head>
+<body>
+  <button onclick="changeColor()">Click Me to Change Color</button>
+
+  <script>
+    // Array of colors
+    const colors = ["red", "green", "blue", "orange", "purple", "pink"];
+    let index = 0;
+
+    function changeColor() {
+      // Get the button element
+      const btn = document.querySelector("button");
+
+      // Change background color from array
+      btn.style.backgroundColor = colors[index];
+
+      // Update index (loop back to 0 if end is reached)
+      index = (index + 1) % colors.length;
+    }
+  </script>
+</body>
+</html>

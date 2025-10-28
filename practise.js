@@ -1,9 +1,9 @@
-// // // console.log("sikandar");
+ console.log("sikandar");
 // // // reverse a string
-// function reverseString(str){
-// return str.split('').reverse('').join('')
-// }
-// console.log(reverseString("lifted"));
+function reverseString(str){
+return str.split('').reverse('').join('')
+}
+console.log(reverseString("lifted"));
 // console.log("sikandar");
 
 // function isPalindrome(str) {
@@ -370,8 +370,8 @@ if (reverseString("take") === 'take') {
 
 
 let fruits = ["apple","mango","banana","grapes"]
-let resultnew = [...fruits]
-console.log(resultnew);
+let resultNew = [...fruits]
+console.log(resultNew);
 
 
 

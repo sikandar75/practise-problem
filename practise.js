@@ -1,9 +1,9 @@
-// // // console.log("sikandar");
+ console.log("sikandar");
 // // // reverse a string
-// function reverseString(str){
-// return str.split('').reverse('').join('')
-// }
-// console.log(reverseString("lifted"));
+function reverseString(str){
+return str.split('').reverse('').join('')
+}
+console.log(reverseString("lifted"));
 // console.log("sikandar");
 
 // function isPalindrome(str) {

@@ -646,8 +646,8 @@ function thirdHighest(arr) {
 }
 
 // Test
-let numbers = [10, 4, 3, 50, 23, 90];
-console.log(thirdHighest(numbers));  // 23
+let abc = [10, 4, 3, 50, 23, 90];
+console.log(thirdHighest(abc));  // 23
 
 
 // console.log(a);

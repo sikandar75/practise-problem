@@ -370,8 +370,8 @@ if (reverseString("take") === 'take') {
 
 
 let fruits = ["apple","mango","banana","grapes"]
-let resultnew = [...fruits]
-console.log(resultnew);
+let resultNew = [...fruits]
+console.log(resultNew);
 
 
 
